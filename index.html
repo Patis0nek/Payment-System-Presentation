@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Platnosci mobilne</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- font icons -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <script src="https://kit.fontawesome.com/07405be9d7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="icon" href="./assets/photo/mastercardlogo.png">
+
+</head>
+
+<div>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><i class="fa-sharp fa-solid fa-credit-card"></i></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-scroll-nav="0" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <div class="start">
+        <h1>
+            Płatności<span>Mobilne</span>
+            <!--
+            <img src="./assets/blik.png">
+            <img src="https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404__480.png">
+            <span>
+                <img src="./assets/photo/revol.png">
+                <img src="https://poland.payu.com/wp-content/uploads/sites/14/2020/05/PAYU_LOGO_LIME-990x640.png">
+            </span>-->
+        </h1>
+        <img class="crp" src="https://bitbns.com/_next/static/media/hero_desktop.a7f35856.svg">
+        <img class="ps" src="https://bitbns.com/_next/static/media/pattern-4.ae149144.svg">
+        <img class="bubble video-play-btn" src="https://bitbns.com/_next/static/media/boxes-2.7080aefb.svg">
+
+        <!-- Video Popup Start -->
+        <div class="video-popup">
+            <div class="video-popup-inner">
+                <div class="iframe-box">
+                    <iframe id="player-1" src="https://www.youtube.com/embed/wtFkxTCVjsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Video Popup End -->
+    </div>
+
+
+
+    <!-- Home Section Start -->
+    <div class=" menu">
+        <section class="photoblik">
+            <img src="./assets/iphone.png" class="ip">
+            <img src="https://seeklogo.com/images/B/blik-logo-A759DC4120-seeklogo.com.png">
+            <h1 type="input">Twój kod to:</h1>
+            <h2 id="kodzik"></h2>
+            <div class="bary">
+                <section class="bar"></section>
+                <section class="bar2" id="bar3"></section>
+            </div>
+            <h3 id="sekundy">30s</h3>
+            <section onclick="Kopia()" class="skopiuj"><i class="far fa-copy"></i> Skopiuj kod</section>
+        </section>
+    </div>
+    <!-- Home Section End -->
+
+    <div>
+        <section class="app-screenshots section-padding bankis" id="screenshots" data-scroll-index="2">
+            <div class="container">
+                <div class="row">
+                    <div class="owl-carousel banks-carousel upper">
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/1.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/2.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/3.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/4.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/5.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/6.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/7.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/8.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/9.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/10.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/11.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/12.webp" alt="app-screenshots">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="./assets/photo/13.webp" alt="app-screenshots">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="entry entryjed">
+        <img src="data:image/png;base64,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">
+        <img src="https://cptsowa.pl/wp-content/uploads/2021/11/blik-logo.png" class="bks">
+        <section class="tgh">
+            Wprowadź 6-cyfrowy kod BLIK
+            <span>wygenerowany w Twojej aplikacji bankowej</span>
+        </section>
+        <section class="nrcode">
+            <img src="https://cptsowa.pl/wp-content/uploads/2021/11/blik-logo.png" class="bkss">
+            <input id="jkpa" maxlength='6' value='' />
+        </section>
+        <section class="send" onclick="klik()">
+            Płacę
+        </section>
+    </div>
+
+    <div id="wysk" class="entry lowp">
+        <br>
+        <section class="tgh">
+            Potwierdzenie transakcji
+            <span>zatwierdź płatność pinem</span>
+        </section>
+        <section class="nrcodes">
+            <input type="password" maxlength=1 id="1" onkeyup="moveOnMax(this,'a')" />
+            <input type="password" maxlength=1 id="a" onkeyup="moveOnMax(this,'b')" />
+            <input type="password" maxlength=1 id="b" onkeyup="moveOnMax(this,'c')" />
+            <input type="password" maxlength=1 id="c" />
+        </section>
+        <section class="send shja" onclick="klik2()">
+            Zatwierdź
+        </section>
+    </div>
+
+    <div class="entry chejk">
+        <section class="tgh">
+            Płatnośc sfinalizowana
+            <span>za chwilę nastąpi przekierowanie do strony sklepu</span>
+            <img class="czk1" src="https://media0.giphy.com/media/3oEjI6SIIHBdRxXI40/200w.gif?cid=82a1493booqfijeo0nq9lazn1lkw7qhimau25csi0df70g91&rid=200w.gif&ct=g">
+            <img class="czk" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/1200px-Eo_circle_green_checkmark.svg.png">
+        </section>
+    </div>
+
+    <section class="tajm">
+        <div class="timeline">
+            <div class="cfgaw right">
+                <div class="content">
+                    <h1>2013</h1>
+                    <p>Porozumienie 6 banków o wspólnym systemie płatności</p>
+                </div>
+            </div>
+            <div class="cfgaw left">
+                <div class="content">
+                    <h1>13 stycznia 2014</h1>
+                    <p>Rejestracja spółki PSP w KRS</p>
+                </div>
+            </div>
+            <div class="cfgaw right">
+                <div class="content">
+                    <h1>2014</h1>
+                    <p>Zgoda NBP na prowadzenie usług płatniczych</p>
+                </div>
+            </div>
+            <div class="cfgaw left">
+                <div class="content">
+                    <h1>9 lutego 2015</h1>
+                    <p>Rozpoczęcie działalności BLIK</p>
+                </div>
+            </div>
+            <div class="cfgaw right">
+                <div class="content">
+                    <h1>Październik 2015</h1>
+                    <p>Wprowadzenie opcji przelewu na telefon P2P</p>
+                </div>
+            </div>
+            <div class="cfgaw left">
+                <div class="content">
+                    <h1>Grudzień 2015</h1>
+                    <p>Usługa mPOS BLIK</p>
+                </div>
+            </div>
+            <div class="cfgaw right">
+                <div class="content">
+                    <h1>Grudzień 2018</h1>
+                    <p>Współpraca Mastercard i PSP</p>
+                </div>
+            </div>
+            <div class="cfgaw left">
+                <div class="content">
+                    <h1>2020</h1>
+                    <p>Kooperacja PSP z zagranicznymi operatorami płatności</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="myPlot" style="width:100%;max-width:700px"></section>
+
+    <script>
+        var xArray = [2015, 2016, 2017, 2018, 2019, 2020, 2021];
+        var yArray = [1.27, 7.8, 33, 91, 353, 424, 758];
+
+        var data = [{
+            x: xArray,
+            y: yArray,
+            mode: "lines"
+        }];
+
+        var layout = {
+            xaxis: { range: [2015, 2021], title: "Rok" },
+            yaxis: { range: [-100, 1000], title: "Liczba transakcji (mln)" },
+            title: "Statystyki rozwoju BLIK"
+        };
+
+        Plotly.newPlot("myPlot", data, layout);
+    </script>
+
+    <section class="fun-facts section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-7">
+                    <div class="section-title">
+                        <p>Cieka<span>wostki</span></p>
+                    </div>
+                    <dev class="fun-facts-text">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="fun-fact-item style-1">
+                                    <h4>Wartość</h4>
+                                    <span>W 2021 roku wartość transakcji wyniosła ponad 100mld złotych</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="fun-fact-item style-2">
+                                    <h4>Banki</h4>
+                                    <span>Usługa dostępna jest w 18 bankach na terenie Polski</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="fun-fact-item style-3">
+                                    <h4>Transakcje</h4>
+                                    <span>Ilość rocznych transakcji wzrosła o 700% względem 2015r</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="fun-fact-item style-4">
+                                    <h4>Kod</h4>
+                                    <span>Długość aktywności kodu BLIK wynosi 120 sekund</span>
+                                </div>
+                            </div>
+                        </div>
+                    </dev>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-screenshots section-padding" id="screenshots" data-scroll-index="2">
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel screenshots-carousel">
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b1.webp" alt="app-screenshots">
+                        <h4>mBank</h4>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b2.webp" alt="app-screenshots">
+                        <h4>Alior Bank</h4>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b3.webp" alt="app-screenshots">
+                        <h4>ING</h4>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b4.webp" alt="app-screenshots">
+                        <h4>PKO</h4>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b5.webp" alt="app-screenshots">
+                        <h4>BNP</h4>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b6.webp" alt="app-screenshots">
+                        <h4>Santander</h4>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b7.webp" alt="app-screenshots">
+                        <h4>Noble</h4>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b8.webp" alt="app-screenshots">
+                        <h4>Nest</h4>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="./assets/photo/b9.webp" alt="app-screenshots">
+                        <h4>Bos</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="how-it-works-item line-right">
+                        <div class="step">1</div>
+                        <h6>Wybieranie płatności</h6>
+                        <p>Kliknij w opcję płatności BLIK na stronie/w apliakcji sprzedawcy</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="how-it-works-item line-right">
+                        <div class="step">2</div>
+                        <h6>Generowanie <br>kodu</h6>
+                        <p>Wejdź w mobilną aplikację banku i wygeneruj kod</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="how-it-works-item line-right">
+                        <div class="step">3</div>
+                        <h6>Przepisywanie kodu</h6>
+                        <p>Skopiuj lub przepisz kod z aplikacji do nowego okna przeglądarki</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="how-it-works-item">
+                        <div class="step">4</div>
+                        <h6>Potwierdzenie płatności</h6>
+                        <p>Zatwierdź transkację w telefonie pinem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials section-padding" id="testimonials" data-scroll-index="4">
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="img-box">
+                            <img src="./assets/photo/zbg.jpg" alt="testimonial">
+                        </div>
+                        <p>Pomysłodawca</p>
+                        <h9>Zbigniew jagiełło</h9>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="img-box">
+                            <img src="https://www.cashless.pl/system/uploads/cashless_reader/photo/12/dm_maly_170.jpg" alt="testimonial">
+                        </div>
+                        <p>Prezes Zarządu PSP</p>
+                        <h9>Dariusz Mazurkiewicz</h9>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="img-box">
+                            <img src="https://www.efcongress.com/wp-content/uploads/2022/06/Barbara-Borgie%C5%82-Cury-1.jpg" alt="testimonial">
+                        </div>
+                        <p>Wiceprzewodnicząca Rady Nadzorczej</p>
+                        <h9>Barbara Borgieł-Cury</h9>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="./assets/main.js"></script>
+    </body>
+
+</html>
