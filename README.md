@@ -33,4 +33,4 @@ Contributions to the Payment System Presentation project are welcome! If you hav
 I would like to acknowledge the support and guidance of my entrepreneurship classes in the development of this presentation. Their feedback and insights were invaluable in refining the concept and creating an engaging presentation.
 
 ## Contact
-If you have any questions, suggestions, or feedback, please feel free to reach out to me at kuna.patryk@gmail.com or visit my portfolio site at patrykkuna.com.
+If you have any questions or feedback, please feel free to reach out to me at kuna.patryk@gmail.com or visit my portfolio site at [patrykkuna.com](https://patrykkuna.com)
